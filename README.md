@@ -43,32 +43,32 @@ node app.js
 Agora você já possui a configuração necessária, podemos começar.
 
 ## Estrutura
-O repositório possui a seguinte estrutura:  
+O repositório possui a seguinte estrutura:
 ```md
-├── config/ 
-│   └── index.js 
-├── controllers/ 
-│   └── index.js  
-├── routes  
-│   └── index.js  
-├── services  
-│   ├── index.js  
-│   └── templatePath.js  
-├── views/  
-├── public/  
-│   ├── images/  
-│   ├── javascript/  
-│   ├── styles/  
-│   └── json/  
-│       └── talk.json  
-├── layout/  
-│   ├── test-front.psd  
-│   └── test-front-320.psd  
-├── .bowerrc  
-├── .gitignore  
-├── app.js  
-├── package.json  
-└── README.md  
+├── config/
+│   └── index.js
+├── controllers/
+│   └── index.js
+├── routes
+│   └── index.js
+├── services
+│   ├── index.js
+│   └── templatePath.js
+├── views/
+├── public/
+│   ├── images/
+│   ├── javascript/
+│   ├── styles/
+│   └── json/
+│       └── talk.json
+├── layout/
+│   ├── test-front.psd
+│   └── test-front-320.psd
+├── .bowerrc
+├── .gitignore
+├── app.js
+├── package.json
+└── README.md
 ```
 
 ### Rotas
@@ -93,7 +93,7 @@ Foi deixada uma estrutura preparada para sua implementação, favor a utilize-a.
 3. Deverá carregar um histórico de conversa (utilizar o arquivo **talk.json** que se encontra no diretório **public/json/**);
 4. O usuário poderá:  *minimizar, restaurar, fechar e enviar mensagem* na caixa de mensagem;
 5. Ao enviar uma nova mensagem, seu conteúdo deverá ser adicionado na conversa;
-6. Suporte funcional para IE+8;
+6. Suporte funcional para IE9+;
 7. Atender aos breakpoints contidos nos arquivos **PSD**;
 
 
